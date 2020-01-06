@@ -1,0 +1,19 @@
+{
+  "name": "pushnotification-sample",
+  "version": "1.0.0",
+  "description": "testing push notification",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
+  },
+  "author": "Nandala Pranay",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "netlify-lambda": "^1.6.3",
+    "serverless-http": "^2.3.0",
+    "web-push": "^3.4.3"
+  }
+}

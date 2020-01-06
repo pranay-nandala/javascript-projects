@@ -25,7 +25,7 @@ async function send() {
 
   // Send Push Notification
   console.log("Sending Push...");
-  await fetch("/subscribe", {
+  await fetch("/.netlify/functions/api/subscribe", {
     method: "POST",
     body: JSON.stringify(subscription),
     headers: {
